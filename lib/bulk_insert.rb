@@ -27,7 +27,7 @@ module BulkInsert
 
     # helper method for preparing the columns before a call to :bulk_insert
     def default_bulk_columns
-      self.column_names - %w(id)
+      self.column_names
     end
 
   end
